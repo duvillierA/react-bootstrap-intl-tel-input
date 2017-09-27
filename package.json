@@ -29,13 +29,7 @@
   },
   "homepage": "https://github.com/theslip/react-bootstrap-intl-tel-input#readme",
   "dependencies": {
-    "react-flag-kit": "^0.2.3"
-  },
-  "peerDependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.6.1"
-  },
-  "devDependencies": {
+    "react-flag-kit": "^0.2.3",
     "babel-loader": "^7.1.1",
     "babel-polyfill": "^6.23.0",
     "babel-preset-env": "^1.6.0",
@@ -58,7 +52,13 @@
     "url-loader": "^0.5.9",
     "uuid": "^3.1.0",
     "webpack": "^3.3.0",
-    "webpack-dev-server": "^2.6.1",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "peerDependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
     "babel-cli": "^6.23.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-latest": "^6.22.0",
